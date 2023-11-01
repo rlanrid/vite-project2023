@@ -5,10 +5,20 @@ Vite를 사용하는 주요 이유는 개발 환경의 빠른 반영, 최적화�
 [vite](https://ko.vitejs.dev/guide)
 
 
+## 구현 기능
+
 
 ## 트러블 슈팅
 <details>
 <summary>git 업로드 버그</summary>
-권한으로 인한 업로드 버그 현상이 생김 >
+원인 : 해당 주소에 대한 권한이 없기 떄문에 발생한다. 
+
 해결방법 : git remote set-url origin https://github-username@github.com/github-username/github-repository-name.git
+</details>
+
+<details>
+<summary>git 업로드 버그</summary>
+원인 : git 프로세스가 동작중일 때 다른 git 프로세스가 실행되는 것을 막아두기 위해서 index.lock이라는 파일을 만들어서 보호를 하기 떄문에 발생한다. 
+
+해결방법 : del ./.git/index.lock
 </details>

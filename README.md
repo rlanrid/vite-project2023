@@ -9,5 +9,6 @@ Vite를 사용하는 주요 이유는 개발 환경의 빠른 반영, 최적화�
 ## 트러블 슈팅
 <details>
 <summary>git 업로드 버그</summary>
-권한으로 인한 업로드 버그 현상이 생김 > 해결방법asdfagg
+권한으로 인한 업로드 버그 현상이 생김 >
+해결방법 : git remote set-url origin https://github-username@github.com/github-username/github-repository-name.git
 </details>

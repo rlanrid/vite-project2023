@@ -1,1 +1,49 @@
-header {}
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    box-sizing: border-box;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    background-color: var(--subBg500);
+    padding: 1rem;
+}
+
+.header__logo {
+    width: 20%;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--mainEng2-font);
+    font-weight: 700;
+    color: var(--white);
+}
+
+.header__logo a {
+    font-size: 1rem;
+}
+
+.header__logo a em {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.header__nav {
+    text-align: right;
+    width: 80%;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.header__nav ul {}
+
+.header__nav li {
+    display: inline;
+    padding: 1rem;
+}

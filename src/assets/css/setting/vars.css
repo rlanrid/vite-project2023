@@ -1,14 +1,16 @@
 :root {
-    --mainEng-font: "Montserrat";
+    --mainEng-font: "DM Serif Display";
+    --mainEng2-font: "Montserrat";
     --mainKor-font: "NanumSquareNeo";
     --mainNum-font: "GmarketSans";
 
-    --mainBg-color: #ffffff;
+    --mainBg-color: #D7C49E;
+    --mainFont-color: #343148;
     --subBg100: #ffffff;
-    --subBg200: #ffffff;
-    --subBg300: #ffffff;
-    --subBg400: #ffffff;
-    --subBg500: #ffffff;
+    --subBg200: #4b4768;
+    --subBg300: #343148;
+    --subBg400: #292739;
+    --subBg500: #211f2d;
 
     --white: #ffffff;
     --black: #000000;

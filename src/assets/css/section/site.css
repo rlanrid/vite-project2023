@@ -30,7 +30,6 @@
 
 .site__wrap {
     width: 100%;
-    padding: 50px;
 }
 
 .site__item {
@@ -80,7 +79,7 @@
 .site__item h3 {
     text-align: center;
     font-size: 1.5rem;
-    color: var(--subBg500);
+    color: var(--subBg100);
     margin-bottom: 10px;
 }
 
@@ -106,4 +105,19 @@
     font-size: 1rem;
     color: var(--white100);
     font-family: var(--mainEng2-font);
+}
+
+
+@media (max-width: 800px){
+    .site__inner {
+        flex-direction: column;
+    }
+    .site__title {
+        width: 100%;
+        margin-bottom: 10vw;
+        height: auto;
+        background-color: var(--mainBg-color);
+        font-size: 40px;
+        line-height: 1.4;
+    }
 }

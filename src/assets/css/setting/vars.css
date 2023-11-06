@@ -5,6 +5,7 @@
     --mainNum-font: "GmarketSans";
 
     --mainBg-color: #D7C49E;
+    --mainBg2-color: #9d8d6c;
     --mainFont-color: #343148;
     --subBg100: #67628f;
     --subBg200: #4b4768;
@@ -15,16 +16,16 @@
     --white: #ffffff;
     --white100: #e5e5e5;
     --white200: #cecece;
-    --white300: #ffffff;
-    --white400: #ffffff;
-    --white500: #ffffff;
+    --white300: #818080;
+    --white400: #4d4d4d;
+    --white500: #212121;
 
     --black: #000000;
-    --black100: #000000;
-    --black200: #000000;
-    --black300: #000000;
-    --black400: #000000;
-    --black500: #000000;
+    --black100: #272727;
+    --black200: #4d4d4d;
+    --black300: #7d7c7c;
+    --black400: #9b9a9a;
+    --black500: #d9d9d9;
 
     /* 기본 폰트 설정 */
     font-family: var(--mainEng-font), var(--mainKor-font);

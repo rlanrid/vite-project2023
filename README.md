@@ -6,6 +6,14 @@ Vite를 사용하는 주요 이유는 개발 환경의 빠른 반영, 최적화�
 
 
 ## 구현 기능
+- 구글 폰트 적용
+- smooth 효과 적용 https://lenis.studiofreight.com/
+- 자바스크립트로 메뉴 클릭 이동 효과 적용
+- GSAP 이용한 가로 스크롤 효과 적용
+- JavaScript 모듈 기능 적용
+- 웹표준 준수를 위한 스킵 메뉴 및 aria, role 적용
+- vite 빌드 작업 `npm run build`
+- netlify 배포 작업
 
 
 ## 트러블 슈팅

@@ -46,7 +46,7 @@
 
 .intro__text .text {
     transition: all 0.3s;
-    z-index: 10000;
+    z-index: 100;
 }
 
 .intro__text:hover .text {

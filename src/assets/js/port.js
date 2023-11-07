@@ -6,7 +6,7 @@ export function port() {
     const horSection = gsap.utils.toArray(".port__item");
 
     gsap.to(horSection, {
-        xPercent: -120 * (horSection.length -1),
+        xPercent: -120 * (horSection.length - 1),
         ease: "none",
         scrollTrigger: {
             trigger: "#port",
@@ -17,7 +17,6 @@ export function port() {
             markers: true,
             invalidateOnRefresh: true,
             anticipatePin: 1,
-            
         }
     });
 }

@@ -10,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 7000px;
+    margin-top: 100px;
 }
 .port__item {
     width: 500px;
@@ -85,6 +86,6 @@
         height: auto;
         background-color: var(--mainBg-color);
         font-size: 40px;
-        line-height: 1.4;
+        line-height: 1.1;
     }
 }
